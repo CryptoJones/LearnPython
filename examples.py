@@ -18,21 +18,26 @@ else:
 
 #for loops
 
-    # python's version of 'for each'
+# python's version of 'for each'
 physicsBranches = ["Astro", "Classical", "Quantum"]
 
 for branch in physicsBranches:
     print('{0} Physics is hard.'.format(branch))
 
 
-    # for with 'in range'
-for i in range(8):
+# for with 'in range'
+print("All in the range of 8:")
+for i in range(8):    
     print(i)
 
 #specifying the range
-for i in range(4, 8):
+print("Between 4 and 8:")
+for i in range(4, 8):    
     print(i)
 
-
+#specifying the range with step
+print("Between 0 and 64, by 12s:")
+for i in range(0, 64, 12):
+    print(i)
 
 
